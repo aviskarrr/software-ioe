@@ -1,0 +1,56 @@
+/* css for weather app */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#getWeather {
+    
+    padding: 5px ;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer; 
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+#getWeather:hover {
+    background-color: #3498db;
+    color: white;
+    border-color: #2980b9;
+    transition-duration: 3ms;
+    transition-delay: 2ms;
+}
+
+
+#city{
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+}
+
+

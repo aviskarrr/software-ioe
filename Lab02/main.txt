@@ -1,0 +1,37 @@
+UML diagrams
+-> Structural diagrams
+    -> example: Class diagram, object diagram
+    Student's 
+        attribute
+            - CRN
+            - NAME
+            - Phone
+        attendence()
+        reports()
+-> Behavioral diagrams
+    -> use case diagram
+    -> activity diagram
+    -> sequence diagram
+
+
+stakeholders-> those who are related to the entity
+    for eg. for our college stakeholders are students, teachers, staffs, BOD's, management staff,and all of the peps related to the college
+
+
+use cases -> ellipses
+actors -> stickman
+
+relations->
+    associations
+    include (like validator)
+    extend (optional)
+    generalization-> eg for payment, payment can be of 
+                                                    -> payment by cash 
+                                                    -> payment by bank
+                                                    -> payment by wallet
+                                                    so we broke down generic case payment by 3 methods.
+
+system boundary-> what can all of the entities in a system can do?
+
+
+
