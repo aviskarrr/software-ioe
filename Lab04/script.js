@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <h2>Weather in ${name}</h2>
             <p>Temperature: ${main.temp} °C</p>
             <p>Condition: ${weather[0].description}</p>
+            <p>Humidity: ${main.humidity}%</p>
+            <p>Wind Speed: ${data.wind.speed} m/s</p>
         `;
     }
 });
